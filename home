@@ -1,0 +1,39 @@
+{
+  "name": "upup",
+  "version": "1.1.0",
+  "description": "Control the content users see, even when they're offline",
+  "keywords": [
+    "cache",
+    "offline",
+    "offlinefirst",
+    "serviceworker"
+  ],
+  "homepage": "https://github.com/TalAter/UpUp",
+  "bugs": {
+    "url": "https://github.com/TalAter/UpUp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalAter/UpUp.git"
+  },
+  "license": "MIT",
+  "author": "Tal Ater <tal@talater.com> (https://www.talater.com/)",
+  "main": "dist/upup.min.js",
+  "scripts": {
+    "start": "grunt dev"
+  },
+  "devDependencies": {
+    "async": "^3.2.0",
+    "grunt": "^1.3.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-markdox": "^1.2.1",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}
